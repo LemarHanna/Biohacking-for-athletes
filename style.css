@@ -3,3 +3,10 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+
+/* Styling for the header section */
+header {
+    background-color: #f8f8f8; /* Light grey background */
+    padding: 20px 0; /* Padding around the header content */
+    text-align: center; /* Centering the header content */
+}
