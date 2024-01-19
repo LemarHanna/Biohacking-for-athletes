@@ -33,3 +33,9 @@ nav ul {
     nav a {
         color: white; /* White text color for links */
         text-decoration: none; /* Removing underline from links */
+    }
+
+    /* Styling for the main content area */
+main {
+    padding: 20px; /* Padding around the main content */
+}
