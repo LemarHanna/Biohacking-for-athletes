@@ -39,3 +39,23 @@ nav ul {
 main {
     padding: 20px; /* Padding around the main content */
 }
+
+/* Styling for each section in the main content area */
+section {
+    margin-bottom: 20px; /* Adding space between sections */
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #f8f8f8; /* Light grey background */
+    text-align: center; /* Centering the footer content */
+    padding: 20px 0; /* Padding around the footer content */
+}
+
+/* Adding a bit of responsive design */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block; /* Stack the navigation items under each other */
+        margin-bottom: 10px; /* Add space between stacked items */
+    }
+}
