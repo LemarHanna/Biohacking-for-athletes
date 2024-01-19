@@ -1,3 +1,4 @@
+/* This sets the default font and removes the default margin */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
