@@ -6,14 +6,14 @@ body {
 
 /* Styling for the header section */
 header {
-    background-color: #f8f8f8; /* Light grey background */
+    background-color: #04154D; /* Light grey background */
     padding: 20px 0; /* Padding around the header content */
     text-align: center; /* Centering the header content */
 }
 
 /* Styling for the navigation bar */
 nav {
-    background-color: #333; /* Dark background for the navigation bar */
+    background-color: #04154D; /* Dark background for the navigation bar */
     color: white; /* White text color */
     padding: 10px 0; /* Padding around the navigation links */
     text-align: center; /* Centering the navigation links */
@@ -47,7 +47,7 @@ section {
 
 /* Styling for the footer */
 footer {
-    background-color: #f8f8f8; /* Light grey background */
+    background-color: #04154D; /* Light grey background */
     text-align: center; /* Centering the footer content */
     padding: 20px 0; /* Padding around the footer content */
 }
