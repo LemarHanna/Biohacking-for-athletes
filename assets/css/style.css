@@ -1,57 +1,19 @@
 /* This sets the default font and removes the default margin */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 body {
+    min-height: 100vh;
     color: white;
     margin: 0;
-    font-family: Arial, sans-serif;
+    flex-direction: column;
+    font-family: 'lato', sans-serif;
     background-color: #00032B;
     box-sizing: border-box;
+    display: flex;
    
 }
 
-/* Styling for the header section */
-/* Styling for the navigation container */
-nav.container-fluid {
-    font-size: 16px;
-    padding: 0px 16px;
-    color: #0a495a;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-/* Styling for the web-logo */
-.web-logo {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.web-logo li {
-    padding: 16px 8px;
-}
-.web-logo strong {
-    font-size: 16px;
-}
-
-/* Styling for the second unordered list */
-.menu {
-    list-style: none;
-    font-size: 16px;
-    margin: 0px -8px 0px 0px;
-    padding: 0;
-    display: flex;
-}
-
-.menu li {
-    padding: 16px 8px;
-}
-
-.menu li a {
-    color: white;
-    font-size: 16px;
-    margin: -8px;
-    padding: 8px;
-    text-decoration: none;
-}
 
 
     /* Styling for the main content area */
