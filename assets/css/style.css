@@ -7,18 +7,27 @@ body {
 }
 
 /* Styling for the header section */
-header {
-    background-color: #00032B; /* Light grey background */
-    padding: 20px 0; /* Padding around the header content */
-    text-align: center; /* Centering the header content */
+nav.container-fluid ul {
+    display: flex;
+    align-items: center;
+    padding-left: 0; /* Removes default padding */
+    list-style: none; /* Removes default list styling */
+    margin: 0; /* Removes default margin */
+}
+
+nav.container-fluid ul li {
+    margin-right: 20px; /* Space between nav items */
+}
+
+nav.container-fluid ul li:first-child {
+    margin-right: auto; /* Pushes all other nav items to the right */
 }
 
 /* Styling for the navigation bar */
-nav {
-    background-color: #04154D; /* Dark background for the navigation bar */
+nav 
     color: white; /* White text color */
     padding: 10px 0; /* Padding around the navigation links */
-    text-align: center; /* Centering the navigation links */
+    text-align: :right; /* Centering the navigation links */
 }
 /* Style for navigation links */
 nav ul {
