@@ -81,13 +81,19 @@ section {
 }
 
 /* Styling for the footer */
-footer {
-    background-color: #04154D; /* Light grey background */
-    text-align: center; /* Centering the footer content */
-    padding: 20px 0; /* Padding around the footer content */
-    color: #ffffff;
+
+#social-media {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+   justify-content: space-evenly; 
+   list-style-type: none;
+   
 }
-li {
+
+#social-media i {
+    font-size: 160%;
+    padding: 5%;
     color: #ffffff;
 }
 
