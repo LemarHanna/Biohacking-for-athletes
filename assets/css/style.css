@@ -24,14 +24,12 @@ header {
  align-items: baseline;
 }
 
-h1 {
-    color: aliceblue;
-}
 
 header a {
     text-decoration: none;
     color: aliceblue;
 }
+
 
 #menu {
     font-size: 110%;
@@ -47,6 +45,7 @@ header a {
 .active {
     border-bottom: 1px solid #ffffff;
 }
+
 /* Navbar style  with dropdown toggle */
 nav {
 position: absolute;
@@ -78,6 +77,16 @@ main {
 /* Styling for each section in the main content area */
 section {
     margin-bottom: 20px; /* Adding space between sections */
+    text-align: center;
+}
+section div {
+    text-align: center;
+    width: 100%;
+}
+
+#breathing-image {
+padding: 30px;
+
 }
 
 /* Styling for the footer */
