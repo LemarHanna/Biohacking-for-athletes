@@ -19,6 +19,9 @@ header {
  z-index: 99;
  width: 100%;
  box-shadow: 0 2px 2px #3a3a3a;
+ display: flex;
+ justify-content: space-between;
+ align-items: baseline;
 }
 
 h1 {
@@ -53,10 +56,19 @@ left: 0;
 padding: 0 1rem;
 box-shadow: 0 2px 2px #00032B;
 display: none;
+top: 100%;
 }
+
+/*Nav TOGGLE */
+#nav-toggle:checked~nav {
+  display: block;  
+}
+
+
     /* Styling for the main content area */
 main {
     padding: 20px; /* Padding around the main content */
+    margin-top: 47px;
 }
 
 /* Styling for each section in the main content area */
