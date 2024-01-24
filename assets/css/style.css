@@ -106,4 +106,16 @@ footer {
 .nav-toggle-label {
   display: none;  
 }
+
+main {
+    margin-top: 79px;
+}
+
+}
+
+@media screen and ( min-width:992px ) {
+    #menu a:hover {
+        border-bottom: 1px solid #ffffff;
+    }
+    
 }
