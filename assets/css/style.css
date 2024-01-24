@@ -19,15 +19,40 @@ header {
  z-index: 99;
  width: 100%;
  box-shadow: 0 2px 2px #3a3a3a;
-
-
-
 }
 
 h1 {
     color: aliceblue;
 }
 
+header a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+
+} 
+
+.active {
+    border-bottom: 1px solid #ffffff;
+}
+/* Navbar style  with dropdown toggle */
+nav {
+position: absolute;
+background-color: #00032B;
+width: 100%;
+left: 0;
+padding: 0 1rem;
+box-shadow: 0 2px 2px #00032B;
+display: none;
 }
     /* Styling for the main content area */
 main {
