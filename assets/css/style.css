@@ -69,6 +69,7 @@ top: 100%;
 main {
     padding: 20px; /* Padding around the main content */
     margin-top: 47px;
+    
 }
 
 /* Styling for each section in the main content area */
@@ -84,14 +85,25 @@ footer {
 }
 
 /* Adding a bit of responsive design */
-@media (max-width: 600px) {
-    nav ul li {
+@media screen and (min-width: 768px) {
+    
+    nav {
         display: block; /* Stack the navigation items under each other */
-        margin-bottom: 10px; /* Add space between stacked items */
+        position: relative;
+        width: fit-content;
+        box-shadow: none;
+        padding-right: 1rem;
     }
+#menu {
+    display: flex;
+
 }
-.container {
-    max-width: 1200px; /* Adjust the width as needed */
-    margin: 0 auto; /* Centers the content */
-    padding: 0 15px; /* Adds some padding on the sides */
+ 
+#menu > li {
+    padding-left: 1rem;
+}
+
+.nav-toggle-label {
+  display: none;  
+}
 }
